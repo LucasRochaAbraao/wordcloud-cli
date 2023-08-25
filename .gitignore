@@ -2,5 +2,7 @@
 data/*
 !data/settings_sample.toml
 !data/cloud.png
+!data/sample.txt
 output/*
-!output/.gitkeep
+!output/sample.png
+__pycache__

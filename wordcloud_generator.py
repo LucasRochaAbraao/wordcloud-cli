@@ -109,7 +109,6 @@ def print_word_frequency_table(lemmatized_corpus):
         table.add_row(word, str(freq))
 
     console = Console()
-    console.print("\n[bold underline]Word Frequency Table[/]\n")
     console.print(table)
 
 
@@ -134,7 +133,7 @@ def main(wordcloud_file: str):
         unique_string = " ".join(lemmatized_corpus)
         progress.update(task, completed=3)
 
-        cloud_mask = np.array(Image.open("cloud.png"))
+        cloud_mask = np.array(Image.open("data/cloud.png"))
         wordcloud = WordCloud(
             width=1100,
             height=680,
