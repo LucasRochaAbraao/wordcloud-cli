@@ -1,0 +1,7 @@
+keep_stop_words = ["john: ", "mary: ", "sample_text"]
+include_stop_words = []
+laughter_patterns = []
+laughter_replacement = ""
+
+[normalize_patterns]
+no = ["nah", "nope"]

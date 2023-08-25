@@ -1,0 +1,6 @@
+.venv/
+data/*
+!data/settings_sample.toml
+!data/cloud.png
+output/*
+!output/.gitkeep
